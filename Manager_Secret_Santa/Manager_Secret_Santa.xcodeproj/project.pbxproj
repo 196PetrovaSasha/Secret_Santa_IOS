@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19AC19032B34E29B0016D581 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AC19022B34E29B0016D581 /* AppDelegate.swift */; };
+		19AC19052B34E29B0016D581 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AC19042B34E29B0016D581 /* SceneDelegate.swift */; };
+		19AC19072B34E29B0016D581 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AC19062B34E29B0016D581 /* ViewController.swift */; };
+		19AC190D2B34E29B0016D581 /* Manager_Secret_Santa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 19AC190B2B34E29B0016D581 /* Manager_Secret_Santa.xcdatamodeld */; };
+		19AC190F2B34E29D0016D581 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19AC190E2B34E29D0016D581 /* Assets.xcassets */; };
+		19AC19122B34E29D0016D581 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19AC19102B34E29D0016D581 /* LaunchScreen.storyboard */; };
+		19AC19202B34E3770016D581 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AC191E2B34E3770016D581 /* UserManager.swift */; };
+		19AC19212B34E3770016D581 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AC191F2B34E3770016D581 /* User.swift */; };
+		19AC19232B34E4C90016D581 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AC19222B34E4C90016D581 /* LoginView.swift */; };
+		19AC19272B34E5160016D581 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AC19262B34E5160016D581 /* RegistrationView.swift */; };
+		19AC192A2B34E5760016D581 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AC19292B34E5760016D581 /* RegistrationController.swift */; };
+		19AC192C2B34E58E0016D581 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AC192B2B34E58E0016D581 /* LoginController.swift */; };
+		19AC192E2B34EC790016D581 /* CreateRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AC192D2B34EC790016D581 /* CreateRoomView.swift */; };
+		19AC19302B34F1320016D581 /* CreateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AC192F2B34F1320016D581 /* CreateListView.swift */; };
+		19AC19322B34F5E40016D581 /* MessendgeSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AC19312B34F5E40016D581 /* MessendgeSender.swift */; };
+		19AC19342B34FC810016D581 /* CreateListViewCotroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AC19332B34FC810016D581 /* CreateListViewCotroller.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19AC18FF2B34E29B0016D581 /* Manager_Secret_Santa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Manager_Secret_Santa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19AC19022B34E29B0016D581 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19AC19042B34E29B0016D581 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		19AC19062B34E29B0016D581 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19AC190C2B34E29B0016D581 /* Manager_Secret_Santa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Manager_Secret_Santa.xcdatamodel; sourceTree = "<group>"; };
+		19AC190E2B34E29D0016D581 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19AC19112B34E29D0016D581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19AC19132B34E29D0016D581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19AC191E2B34E3770016D581 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = SOURCE_ROOT; };
+		19AC191F2B34E3770016D581 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = SOURCE_ROOT; };
+		19AC19222B34E4C90016D581 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		19AC19262B34E5160016D581 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		19AC19292B34E5760016D581 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		19AC192B2B34E58E0016D581 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		19AC192D2B34EC790016D581 /* CreateRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRoomView.swift; sourceTree = "<group>"; };
+		19AC192F2B34F1320016D581 /* CreateListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateListView.swift; sourceTree = "<group>"; };
+		19AC19312B34F5E40016D581 /* MessendgeSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessendgeSender.swift; sourceTree = "<group>"; };
+		19AC19332B34FC810016D581 /* CreateListViewCotroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateListViewCotroller.swift; sourceTree = "<group>"; };
+		19AC19352B35858A0016D581 /* Script.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Script.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19AC18FC2B34E29B0016D581 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19AC18F62B34E29B0016D581 = {
+			isa = PBXGroup;
+			children = (
+				19AC19352B35858A0016D581 /* Script.sh */,
+				19AC19012B34E29B0016D581 /* Manager_Secret_Santa */,
+				19AC19002B34E29B0016D581 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19AC19002B34E29B0016D581 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19AC18FF2B34E29B0016D581 /* Manager_Secret_Santa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19AC19012B34E29B0016D581 /* Manager_Secret_Santa */ = {
+			isa = PBXGroup;
+			children = (
+				19AC191D2B34E2CD0016D581 /* Views */,
+				19AC191C2B34E2C40016D581 /* Models */,
+				19AC191B2B34E2BC0016D581 /* Controllers */,
+				19AC19192B34E2A40016D581 /* Sources */,
+				19AC19022B34E29B0016D581 /* AppDelegate.swift */,
+				19AC19042B34E29B0016D581 /* SceneDelegate.swift */,
+				19AC19132B34E29D0016D581 /* Info.plist */,
+			);
+			path = Manager_Secret_Santa;
+			sourceTree = "<group>";
+		};
+		19AC19192B34E2A40016D581 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				19AC19102B34E29D0016D581 /* LaunchScreen.storyboard */,
+				19AC190E2B34E29D0016D581 /* Assets.xcassets */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		19AC191B2B34E2BC0016D581 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				19AC19062B34E29B0016D581 /* ViewController.swift */,
+				19AC19292B34E5760016D581 /* RegistrationController.swift */,
+				19AC192B2B34E58E0016D581 /* LoginController.swift */,
+				19AC19312B34F5E40016D581 /* MessendgeSender.swift */,
+				19AC19332B34FC810016D581 /* CreateListViewCotroller.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		19AC191C2B34E2C40016D581 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				19AC191E2B34E3770016D581 /* UserManager.swift */,
+				19AC191F2B34E3770016D581 /* User.swift */,
+				19AC190B2B34E29B0016D581 /* Manager_Secret_Santa.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		19AC191D2B34E2CD0016D581 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				19AC19222B34E4C90016D581 /* LoginView.swift */,
+				19AC19262B34E5160016D581 /* RegistrationView.swift */,
+				19AC192D2B34EC790016D581 /* CreateRoomView.swift */,
+				19AC192F2B34F1320016D581 /* CreateListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19AC18FE2B34E29B0016D581 /* Manager_Secret_Santa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19AC19162B34E29D0016D581 /* Build configuration list for PBXNativeTarget "Manager_Secret_Santa" */;
+			buildPhases = (
+				19AC18FB2B34E29B0016D581 /* Sources */,
+				19AC18FC2B34E29B0016D581 /* Frameworks */,
+				19AC18FD2B34E29B0016D581 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Manager_Secret_Santa;
+			productName = Manager_Secret_Santa;
+			productReference = 19AC18FF2B34E29B0016D581 /* Manager_Secret_Santa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19AC18F72B34E29B0016D581 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					19AC18FE2B34E29B0016D581 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 19AC18FA2B34E29B0016D581 /* Build configuration list for PBXProject "Manager_Secret_Santa" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19AC18F62B34E29B0016D581;
+			productRefGroup = 19AC19002B34E29B0016D581 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19AC18FE2B34E29B0016D581 /* Manager_Secret_Santa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19AC18FD2B34E29B0016D581 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19AC19122B34E29D0016D581 /* LaunchScreen.storyboard in Resources */,
+				19AC190F2B34E29D0016D581 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19AC18FB2B34E29B0016D581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19AC19072B34E29B0016D581 /* ViewController.swift in Sources */,
+				19AC192A2B34E5760016D581 /* RegistrationController.swift in Sources */,
+				19AC19232B34E4C90016D581 /* LoginView.swift in Sources */,
+				19AC190D2B34E29B0016D581 /* Manager_Secret_Santa.xcdatamodeld in Sources */,
+				19AC19212B34E3770016D581 /* User.swift in Sources */,
+				19AC19032B34E29B0016D581 /* AppDelegate.swift in Sources */,
+				19AC19052B34E29B0016D581 /* SceneDelegate.swift in Sources */,
+				19AC19202B34E3770016D581 /* UserManager.swift in Sources */,
+				19AC192E2B34EC790016D581 /* CreateRoomView.swift in Sources */,
+				19AC19302B34F1320016D581 /* CreateListView.swift in Sources */,
+				19AC19272B34E5160016D581 /* RegistrationView.swift in Sources */,
+				19AC19342B34FC810016D581 /* CreateListViewCotroller.swift in Sources */,
+				19AC192C2B34E58E0016D581 /* LoginController.swift in Sources */,
+				19AC19322B34F5E40016D581 /* MessendgeSender.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		19AC19102B34E29D0016D581 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19AC19112B34E29D0016D581 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19AC19142B34E29D0016D581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19AC19152B34E29D0016D581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19AC19172B34E29D0016D581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Manager_Secret_Santa/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aleksandra.petrowa2017-yandex.ru.Manager-Secret-Santa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19AC19182B34E29D0016D581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Manager_Secret_Santa/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aleksandra.petrowa2017-yandex.ru.Manager-Secret-Santa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19AC18FA2B34E29B0016D581 /* Build configuration list for PBXProject "Manager_Secret_Santa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19AC19142B34E29D0016D581 /* Debug */,
+				19AC19152B34E29D0016D581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19AC19162B34E29D0016D581 /* Build configuration list for PBXNativeTarget "Manager_Secret_Santa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19AC19172B34E29D0016D581 /* Debug */,
+				19AC19182B34E29D0016D581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		19AC190B2B34E29B0016D581 /* Manager_Secret_Santa.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				19AC190C2B34E29B0016D581 /* Manager_Secret_Santa.xcdatamodel */,
+			);
+			currentVersion = 19AC190C2B34E29B0016D581 /* Manager_Secret_Santa.xcdatamodel */;
+			path = Manager_Secret_Santa.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 19AC18F72B34E29B0016D581 /* Project object */;
+}
